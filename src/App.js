@@ -21,8 +21,16 @@ function App() {
          Lakshya's Portfolio
         </Heading>
         <Spacer></Spacer>
-        <IconButton ml={2} icon={ <FaGithub /> } isRound="true" ></IconButton>
-        <IconButton ml={2} icon={ <FaLinkedin /> } isRound="true"></IconButton>
+        
+        <IconButton ml={2} icon={ <FaGithub /> } isRound="true"
+        onClick={() =>
+                        window.open("https://github.com/kenkirito")}
+         ></IconButton>
+         
+        <IconButton ml={2} icon={ <FaLinkedin /> } isRound="true"
+         onClick={() =>
+                        window.open("https://www.linkedin.com/in/lakshya-mishra-61aa33191/")}
+        ></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
         </Flex>
         <Header />
@@ -33,5 +41,3 @@ function App() {
 }
 
 export default App;
-
-
