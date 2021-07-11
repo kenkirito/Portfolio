@@ -25,7 +25,6 @@ function Header() {
                 <Button mt={8}  colorScheme="blue" >Hire Me</Button>
                 <Button mt={8} leftIcon={<EmailIcon />}  ml="2" colorScheme="blue" > Email </Button>
                 <Button mt={8} ml="2" colorScheme="blue" > Call </Button>
-             🐍 
                
             </Box>
             <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
