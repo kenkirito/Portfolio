@@ -7,6 +7,8 @@ import { Button, ButtonGroup, EmailIcon } from "@chakra-ui/react"
 function Header() {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark";
+    const email = <EmailIcon />;
+
 
     const [isNotSmallerScreen] = useMediaQuery("(min-width: 600px)");
     return (
@@ -21,9 +23,9 @@ function Header() {
                 <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text" > Lakshya Mishra </Text>
                 <Text color={isDark ? "gray.200" : "gray.500"}> mern stack, python, flutter, reactnative, devOps, threejs, Blenders 🍥🍥🍥</Text>
                 <Button mt={8}  colorScheme="blue" >Hire Me</Button>
-                <Button mt={8} ml="2" colorScheme="blue" > Email </Button>
+                <Button mt={8} leftIcon={<EmailIcon />}  ml="2" colorScheme="blue" > Email </Button>
                 <Button mt={8} ml="2" colorScheme="blue" > Call </Button>
-              
+             🐍 
                
             </Box>
             <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
