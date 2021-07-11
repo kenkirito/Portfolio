@@ -22,7 +22,7 @@ function Profile() {
                 <Text fontWeight="bold" fontSize="2xl"> Full stack developer, mobile apps and web apps </Text>
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
                     <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
-                        <Icon color="white" p="4" as={DiReact} w="24" h="24" />
+                        <Icon color="white" p="4"  as={DiReact} w="24" h="24" />
                         <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
                             Mern stack
                         </Text>

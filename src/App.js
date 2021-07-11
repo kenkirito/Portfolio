@@ -25,9 +25,9 @@ function App() {
         <IconButton ml={2} icon={ <FaLinkedin /> } isRound="true"></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
         </Flex>
-        <Header></Header>
-        <Social></Social>
-        <Profile></Profile>
+        <Header />
+        <Social />
+        <Profile />
       </VStack>
   );
 }
