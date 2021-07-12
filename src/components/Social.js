@@ -4,11 +4,8 @@ import React from "react";
 import {
   FaTwitter,
   FaLinkedinIn,
-  FaGoogle,
   FaYoutube,
-  FaSpotify,
   FaMailBulk,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 function Social() {

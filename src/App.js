@@ -4,10 +4,8 @@ import {
   FaSun,
   FaMoon,
   FaGithub,
-  FaLinkedin,
   FaStackOverflow,
-  FaYoutube,
-  FaTwitter,
+  FaDev,
 } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/color-mode";
 import Header from "./components/Header";
@@ -41,6 +39,14 @@ function App() {
             window.open("https://stackoverflow.com/users/16427979/lakshya")
           }
         ></IconButton>
+
+        <IconButton
+          ml={2}
+          icon={<FaDev />}
+          isRound="true"
+          onClick={() => window.open("https://dev.to/kenkirito")}
+        ></IconButton>
+
         <IconButton
           ml={8}
           icon={isDark ? <FaSun /> : <FaMoon />}

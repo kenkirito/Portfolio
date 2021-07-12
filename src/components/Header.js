@@ -43,15 +43,13 @@ function Header() {
           <Text color={isDark ? "gray.200" : "gray.500"}>
             {" "}
             mern stack, python, flutter, reactnative, devOps, threejs, Blenders
-            🍥🍥🍥
+            
           </Text>
-          <Button mt={8} colorScheme="blue">
+          <Button mt={8} colorScheme="blue"
+          >
             Hire Me
           </Button>
-          <Button mt={8} ml="2" colorScheme="blue">
-            {" "}
-            Email{" "}
-          </Button>
+          
           <Button mt={8} ml="2" colorScheme="blue">
             {" "}
             Call{" "}
