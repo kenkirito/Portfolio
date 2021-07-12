@@ -3,7 +3,7 @@ import { Stack, Circle, Flex, Box, Text } from "@chakra-ui/layout";
 import { useMediaQuery } from "@chakra-ui/media-query";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
-import { Button, ButtonGroup, EmailIcon } from "@chakra-ui/react";
+import { Button,  EmailIcon } from "@chakra-ui/react";
 function Header() {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
@@ -45,11 +45,11 @@ function Header() {
             mern stack, python, flutter, reactnative, devOps, threejs, Blenders
             
           </Text>
-          <Button mt={8} colorScheme="blue"
-          >
+          <a src="../images/profile.png"  width="100%" height="500px">
+          <Button mt={8} colorScheme="blue">
             Hire Me
           </Button>
-          
+          </a>
           <Button mt={8} ml="2" colorScheme="blue">
             {" "}
             Call{" "}
@@ -63,7 +63,7 @@ function Header() {
           boxShadow="lg"
           backgroundColor="transparent"
           boxSize="300px"
-          src="https://avatars.githubusercontent.com/u/68530218?s=400&u=96d067e5bda86c33d465812e98380a14b071b89f&v=4"
+         src=" https://avatars.githubusercontent.com/u/68530218?s=400&u=96d067e5bda86c33d465812e98380a14b071b89f&v=4"
         />
       </Flex>
     </Stack>
