@@ -1,6 +1,6 @@
 import { IconButton } from "@chakra-ui/button";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/react";
-import { FaSun, FaMoon, FaGithub, FaLinkedin, FaYoutube, FaTwitter} from 'react-icons/fa';
+import { FaSun, FaMoon, FaGithub, FaLinkedin, FaStackOverflow, FaYoutube, FaTwitter} from 'react-icons/fa';
 import { useColorMode } from "@chakra-ui/color-mode";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
@@ -26,19 +26,11 @@ function App() {
         onClick={() =>
                         window.open("https://github.com/kenkirito")}
          ></IconButton>
-         
-        <IconButton ml={2} icon={ <FaLinkedin /> } isRound="true"
-         onClick={() =>
-                        window.open("https://www.linkedin.com/in/lakshya-mishra-61aa33191/")}
-        ></IconButton>
-        <IconButton ml={2} icon={ <FaYoutube /> } isRound="true"
-         onClick={() =>
-                        window.open("https://www.youtube.com/channel/UCmyEipN5pT6sxp1h2tX9xNA")}
-        ></IconButton>
-        <IconButton ml={2} icon={ <FaTwitter /> } isRound="true"
-         onClick={() =>
-                        window.open("https://twitter.com/LakshyaMishra56")}
-        ></IconButton>
+
+<IconButton ml={2} icon={ <FaStackOverflow /> } isRound="true"
+        onClick={() =>
+                        window.open("https://stackoverflow.com/users/16427979/lakshya")}
+         ></IconButton>         
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
         </Flex>
         <Header />
