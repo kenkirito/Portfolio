@@ -42,21 +42,15 @@ function Header() {
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
             {" "}
-            mern stack, python, flutter, reactnative, devOps, threejs, Blenders
+            mern stack , python, flutter, reactnative, devOps, threejs, Blenders
             
           </Text>
          
           <Button mt={8} colorScheme="blue"
-           onClick={() =>
-          window.open(
-            " https://www.linkedin.com/in/lakshya-mishra-61aa33191/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAC0uUrYBgD7waQQy6EFijJjQDZ1caCzHmPo,1635462604159)/"
-          )
-        }
-          >
+           onClick={() => window.open("https://drive.google.com/file/d/1CmE4txqlHFV46ueeTiw97JLHT3lpVtay/view?usp=sharing")}
+          > 
             Hire Me
-            
-          </Button>
-          
+            </Button>
           
         </Box>
         <Image
@@ -71,6 +65,7 @@ function Header() {
         />
       </Flex>
     </Stack>
+   
   );
 }
 
