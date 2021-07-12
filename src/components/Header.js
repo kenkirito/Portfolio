@@ -45,15 +45,19 @@ function Header() {
             mern stack, python, flutter, reactnative, devOps, threejs, Blenders
             
           </Text>
-          <a src="../images/profile.png"  width="100%" height="500px">
-          <Button mt={8} colorScheme="blue">
+         
+          <Button mt={8} colorScheme="blue"
+           onClick={() =>
+          window.open(
+            " https://www.linkedin.com/in/lakshya-mishra-61aa33191/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAC0uUrYBgD7waQQy6EFijJjQDZ1caCzHmPo,1635462604159)/"
+          )
+        }
+          >
             Hire Me
+            
           </Button>
-          </a>
-          <Button mt={8} ml="2" colorScheme="blue">
-            {" "}
-            Call{" "}
-          </Button>
+          
+          
         </Box>
         <Image
           alignSelf="center"
