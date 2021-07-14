@@ -25,16 +25,7 @@ function Social() {
           window.open("https://www.linkedin.com/in/lakshya-mishra-61aa33191/")
         }
       />
-      <Icon
-        as={FaYoutube}
-        style={{ cursor: "pointer" }}
-        onClick={() =>
-          window.open(
-            "https://www.youtube.com/channel/UCmyEipN5pT6sxp1h2tX9xNA"
-          )
-        }
-        boxSize="50"
-      />
+     
       <Icon
         as={FaMailBulk}
         boxSize="50"
